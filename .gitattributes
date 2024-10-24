@@ -1,0 +1,11 @@
+# Normalizar finales de línea
+* text=auto
+
+# Archivos JSON siempre con LF
+*.json text eol=lf
+
+# Otros archivos de configuración también con LF
+*.yml text eol=lf
+*.yaml text eol=lf
+*.sh text eol=lf
+*.ts text eol=lf
