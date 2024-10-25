@@ -1,18 +1,19 @@
 {
   "compilerOptions": {
-    "target": "es6",                          // Define el estándar de JavaScript
-    "module": "commonjs",                     // Usar módulos CommonJS
-    "strict": true,                           // Activar chequeos estrictos
-    "esModuleInterop": true,                  // Para compatibilidad con módulos ES
-    "skipLibCheck": true,                     // Omitir chequeo de archivos de biblioteca
-    "forceConsistentCasingInFileNames": true, // Asegurar consistencia en nombres de archivos
-    "baseUrl": "./src",                       // Definir la carpeta base para las rutas
+    "target": "ES6",
+    "module": "CommonJS",
+    "outDir": "./dist",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": "./src",
     "paths": {
       "@Core/*": ["Core/*"],
       "@Application/*": ["Application/*"],
       "@Infrastructure/*": ["Infrastructure/*"]
     }
   },
-  "include": ["src/**/*"],  // Incluye todos los archivos TypeScript en src
-  "exclude": ["node_modules"] // Excluir node_modules para evitar errores en paquetes
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
 }
